@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import InputForm from "./components/InputForm";
+import ExpenseContent from "./components/ExpenseContent";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <div className="pt-[80px] mx-auto max-w-3xl px-5">
         <InputForm />
+        <ExpenseContent />
       </div>
     </div>
   );
